@@ -16,9 +16,7 @@ loop do
         student[a][:phoneNumber] = gets.chomp
         puts "Gender? (male/female)"
         student[a][:gender] = gets.chomp
-            if student[a][:gender] == "male" 
-                student[a][:gender] = "male"
-            elsif student[a][:gender] == "female" 
+            if student[a][:gender] == "female" 
                 student[a][:gender] = "female"
             else 
                 student[a][:gender] = "male"
